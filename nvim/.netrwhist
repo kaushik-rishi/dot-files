@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/darkangel/Desktop/My_Workspace/OOPS'
+let g:netrw_dirhist_2='/etc/dconf'
 let g:netrw_dirhist_1='/home/darkangel'
 let g:netrw_dirhist_0='/home/darkangel/Desktop/PythonProjects'
 let g:netrw_dirhist_9='/home/darkangel/Desktop'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_7='/home/darkangel/Desktop'
 let g:netrw_dirhist_6='/home/darkangel'
 let g:netrw_dirhist_5='/home/darkangel/.config/CP Editor'
 let g:netrw_dirhist_4='/home/darkangel/.config'
-let g:netrw_dirhist_3='/home/darkangel/.config/fish'
-let g:netrw_dirhist_2='/home/darkangel/.android'
