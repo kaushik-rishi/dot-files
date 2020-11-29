@@ -1,0 +1,37 @@
+{
+    "currentIndex": 0,
+    "tabs": [
+        {
+            "checkerIndex": 0,
+            "customCheckers": [
+            ],
+            "editorAnchor": 741,
+            "editorCursor": 741,
+            "editorText": "#include <bits/stdc++.h>\nusing namespace std;\n#define int long long\n#define endl \"\\n\"\n#define deb(x) cout << #x << \" -> \" << x << endl;\n#define deb1(x) cerr << #x << \": \" << x << \" \" << endl\n#define deb2(x, y) cerr << #x << \": \" << x << \" | \" << #y << \": \" << y << endl\n#define deb3(x, y, z)                                                         \\\n    cerr << #x << \":\" << x << \" | \" << #y << \": \" << y << \" | \" << #z << \": \" \\\n         << z << endl\n#define deb4(a, b, ser, d)                                               \\\n    cerr << #a << \": \" << a << \" | \" << #b << \": \" << b << \" | \" << #ser \\\n         << \": \" << ser << \" | \" << #d << \": \" << d << endl\n#define print(x)                          \\\n    for (auto &x_ : x) cout << x_ << \" \"; \\\n    cout << endl;\n#define pb push_back\n#define all(x) x.begin(), x.end()\n#define prec(x, y) fixed << setprecision(y) << x\n\n/*\nThink of an easier solution because the problems you solve are always easy\n-> Problems till Div-2 C are going to be ad-hoc\nThink of change occuring in window (K periodic)\nBinary Search (May be sort and rotate)\nTraverse the array in reverse and check if any idea works out\n*/\n\nvoid solve(int tc_count) {\n}\n\nint32_t main() {\n    ios::sync_with_stdio(0);\n    cout.tie(0);\n    cin.tie(0);\n\n    int32_t tc = 1;\n    cin >> tc;\n    for (int tc_ = 1; tc_ <= tc; ++tc_) {\n        solve(tc_);\n    }\n}",
+            "expected": [
+                ""
+            ],
+            "filePath": "",
+            "horizontalScrollBarValue": 0,
+            "input": [
+                ""
+            ],
+            "isLanguageSet": true,
+            "language": "C++",
+            "problemURL": "",
+            "savedText": "",
+            "testCaseSplitterStates": [
+                [
+                    222,
+                    207,
+                    230
+                ]
+            ],
+            "testcasesIsShow": [
+                true
+            ],
+            "untitledIndex": 1,
+            "verticalScrollbarValue": 0
+        }
+    ]
+}
