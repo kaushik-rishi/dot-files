@@ -1,0 +1,75 @@
+{
+  "cookies": {
+    "codeforces.com": {
+      "codeforces.com;/;39ce7": {
+        "Name": "39ce7",
+        "Value": "CFnApAFG",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": false,
+        "Persistent": true,
+        "HostOnly": true,
+        "Expires": "2020-12-11T11:29:06.135707415+05:30",
+        "Creation": "2020-11-29T21:42:26.135707415+05:30",
+        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+      },
+      "codeforces.com;/;JSESSIONID": {
+        "Name": "JSESSIONID",
+        "Value": "C478423019E353EB60BFB933394D4081-n1",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": true,
+        "Persistent": false,
+        "HostOnly": true,
+        "Expires": "9999-12-31T23:59:59Z",
+        "Creation": "2020-11-29T21:42:26.135707415+05:30",
+        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+      },
+      "codeforces.com;/;X-User": {
+        "Name": "X-User",
+        "Value": "5a46164ca6bbcf7719fc5c6d79c46fe7f2e70afd19493d2146dedf7ade1aa1c19e60b414c30c2263",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": false,
+        "Persistent": true,
+        "HostOnly": true,
+        "Expires": "2020-12-29T21:42:26.743608005+05:30",
+        "Creation": "2020-11-29T21:42:26.743608005+05:30",
+        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+      },
+      "codeforces.com;/;X-User-Sha1": {
+        "Name": "X-User-Sha1",
+        "Value": "e024cf354029294e189853c236eaa795bb2f5d76",
+        "Domain": "codeforces.com",
+        "Path": "/",
+        "SameSite": "",
+        "Secure": false,
+        "HttpOnly": false,
+        "Persistent": true,
+        "HostOnly": true,
+        "Expires": "2021-11-29T21:42:26.743608005+05:30",
+        "Creation": "2020-11-29T21:42:26.743608005+05:30",
+        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+      }
+    }
+  },
+  "handle": "dark_angel007",
+  "handle_or_email": "dark_angel007",
+  "password": "13fda6f5ae2258a12ba8b20dff4026bea9d271fd9cc01e5eade698777c0db6ec060463a7bf",
+  "ftaa": "llngzieyoh43e0133o",
+  "bfaa": "f1b3f18c715565b589b7823cda7448ce",
+  "last_submission": {
+    "problem_type": "contest",
+    "contest_id": "1452",
+    "group_id": "",
+    "problem_id": "A",
+    "submission_id": "99926289",
+    "RootPath": "/home/darkangel/Apps/cf/contest"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "template": [
+    {
+      "alias": "cpp",
+      "lang": "50",
+      "path": "/home/darkangel/cp_templates/contest_template.cpp",
+      "suffix": [
+        "cpp"
+      ],
+      "before_script": "",
+      "script": "tobeempty",
+      "after_script": ""
+    }
+  ],
+  "default": 0,
+  "gen_after_parse": false,
+  "host": "https://codeforces.com",
+  "proxy": "",
+  "folder_name": {
+    "acmsguru": "acmsguru",
+    "contest": "contest",
+    "group": "group",
+    "gym": "gym",
+    "root": "cf"
+  }
+}
