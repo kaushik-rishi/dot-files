@@ -2,12 +2,25 @@ source $HOME/.config/nvim/root-settings/splits.vim
 source $HOME/.config/nvim/root-settings/plugs.vim
 source $HOME/.config/nvim/root-settings/control-c-settings.vim
 source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/onedark.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/autopairs.vim
 source $HOME/.config/nvim/plug-config/vimcommentary.vim
 source $HOME/.config/nvim/plug-config/lightline.vim
+
+set autoread
+
+Plug 'nvim-treesitter/nvim-treesitter'
+
+" require'nvim-treesitter.configs'.setup {
+"   ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+"   highlight = {
+"     enable = true,              -- false will disable the whole extension
+"   },
+" }
 
 " ================ Suggestions ======================
 " show wild menu (menu of suggestions) when typing commands in command mode
