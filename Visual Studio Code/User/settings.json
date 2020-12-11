@@ -1,0 +1,345 @@
+{
+  "code-runner.runInTerminal": true,
+  "editor.glyphMargin": false,
+  "C_Cpp.errorSquiggles": "Disabled",
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "explorer.sortOrder": "type",
+  "editor.cursorBlinking": "phase",
+  "files.trimFinalNewlines": true,
+  "editor.smoothScrolling": true,
+  // format on save settings only for some languages
+  // Google formatter for c++ && c
+  // Prettier for JSON, HTML, CSS, JavaScript, Javascript React
+  // Setting Google Formatter for nice bracket styling
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+  "[cpp]": {
+    "editor.formatOnSave": true,
+  },
+  "[c]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "editor.formatOnSave": true,
+    // "editor.quickSuggestions": {
+    //   "other": false,
+    //   "comments": false,
+    //   "strings": false
+    // },
+    // Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`;`) can be a commit character that accepts a suggestion and types that character.
+    // "editor.acceptSuggestionOnCommitCharacter": false,
+    // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
+    // "editor.acceptSuggestionOnEnter": "on",
+    // Controls the delay in ms after which quick suggestions will show up.
+    // "editor.quickSuggestionsDelay": 100,
+    // Controls if suggestions should automatically show up when typing trigger characters
+    // "editor.suggestOnTriggerCharacters": false,
+    // Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
+    // "editor.tabCompletion": "off",
+    // Controls whether sorting favours words that appear close to the cursor
+    // "editor.suggest.localityBonus": false,
+    // Controls how suggestions are pre-selected when showing the suggest list
+    // "editor.suggestSelection": "recentlyUsed",
+    // Enable word based suggestions
+    // "editor.wordBasedSuggestions": false,
+    // Enable parameter hints
+    // "editor.parameterHints.enabled": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    // "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  // Code runner Settings
+  "code-runner.executorMap": {
+    // giving dark_angel flag for competitive programming stuff (does'nt matter for other use cases. flag handling is completely optional)
+    "cpp": "cd $dir && g++ \"$fileName\" -o \"$fileNameWithExt\" -Ddark_angel && \"$fileNameWithExt\"",
+    "c": "cd $dir && gcc \"$fileName\" -o \"$fileNameWithExt\" && \"$fileNameWithExt\""
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.ignoreSelection": true,
+  // Shell settings
+  "terminal.integrated.fontWeightBold": "100",
+  "terminal.integrated.letterSpacing": 1.5,
+  "terminal.integrated.fontWeight": "100",
+  // editor font settings
+  "editor.fontFamily": "'Dank Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  // hide all scrollbars
+  // "editor.scrollbar.horizontal": "hidden",
+  // "editor.scrollbar.vertical": "hidden",
+  // file exclusion
+  "files.exclude": {
+    "*/*.class": true,
+    "*.prob": true,
+    "*/*.cppWithExt": true,
+    "*/*.cWithExt": true,
+    "*/*.exe": true,
+    "*/*.out": true,
+    "*/*.prob": true,
+    "*/*/*.cppWithExt": true,
+    "*/*/*.cWithExt": true,
+    "*/*/*.exe": true,
+    "*/*/*.out": true,
+    "*/*/*.prob": true,
+    "*/*/*/*.cppWithExt": true,
+    "*/*/*/*.cWithExt": true,
+    "*/*/*/*.exe": true,
+    "*/*/*/*.out": true,
+    "*/*/*/*.prob": true,
+    "*/*/*/*/*.cppWithExt": true,
+    "*/*/*/*/*.exe": true,
+    "*/*/*/*/*.out": true,
+    "*/*/*/*/*.prob": true
+  },
+  "output.smartScroll.enabled": false,
+  "files.autoSaveDelay": 0,
+  "C_Cpp.updateChannel": "Insiders",
+  // true for debugging purposes
+  // "editor.glyphMargin": false,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "workbench.activityBar.visible": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "search.showLineNumbers": true,
+  "liveServer.settings.donotVerifyTags": true,
+  // remote style sheets for css support
+  "css.fileExtensions": [
+    "css",
+    "scss"
+  ],
+  "css.remoteStyleSheets": [
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+  ],
+  // "oneDarkPro.vivid": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.suggestSelection": "first",
+  "window.zoomLevel": 0,
+  "python.languageServer": "Pylance",
+  "workbench.statusBar.visible": true,
+  // switching off autofetch
+  "git.autofetch": false,
+  "workbench.list.smoothScrolling": true,
+  // "workbench.colorTheme": "Atom One Dark",
+  "oneDarkPro.italic": false,
+  // to remove italic comments
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "",
+        }
+      },
+      {
+        "scope": [
+          "comment.line",
+          "constant",
+          "constant.character",
+          "constant.character.escape",
+          "constant.numeric",
+          "constant.numeric.integer",
+          "constant.numeric.float",
+          "constant.numeric.hex",
+          "constant.numeric.octal",
+          "constant.other",
+          "constant.regexp",
+          "constant.rgb-value",
+          "emphasis",
+          "entity",
+          "entity.name",
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.method",
+          "entity.name.section",
+          "entity.name.selector",
+          "entity.name.tag",
+          "entity.name.type",
+          "entity.other",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "invalid",
+          "invalid.deprecated",
+          "invalid.illegal",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.other",
+          "markup",
+          "markup.bold",
+          "markup.changed",
+          "markup.deleted",
+          "markup.heading",
+          "markup.inline.raw",
+          "markup.inserted",
+          "markup.italic",
+          "markup.list",
+          "markup.list.numbered",
+          "markup.list.unnumbered",
+          "markup.other",
+          "markup.quote",
+          "markup.raw",
+          "markup.underline",
+          "markup.underline.link",
+          "meta",
+          "meta.block",
+          "meta.cast",
+          "meta.class",
+          "meta.function",
+          "meta.function-call",
+          "meta.preprocessor",
+          "meta.return-type",
+          "meta.selector",
+          "meta.tag",
+          "meta.type.annotation",
+          "meta.type",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator",
+          "punctuation.separator.continuation",
+          "punctuation.terminator",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "string",
+          "string.interpolated",
+          "string.other",
+          "string.quoted",
+          "string.quoted.double",
+          "string.quoted.other",
+          "string.quoted.single",
+          "string.quoted.triple",
+          "string.regexp",
+          "string.unquoted",
+          "strong",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "comment, punctuation.definition.comment",
+        "settings": {
+          "foreground": "#D3D3D3",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "comment.line.double-slash,comment.block.documentation",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#929292",
+          "fontStyle": "bold" // comments
+        }
+      }
+    ]
+  },
+  "java.semanticHighlighting.enabled": true,
+  "terminal.integrated.fontSize": 16,
+  "sync.gist": "d3642b66d162ee88a1f8d70c5cb4ec3c",
+  // "workbench.colorTheme": "Dark PK Theme",
+  "zenMode.hideTabs": false,
+  "zenMode.restore": true,
+  "dart.previewFlutterUiGuides": true,
+  "errorLens.delay": 1998,
+  "dart.notifyAnalyzerErrors": true,
+  "files.watcherExclude": {
+    "*/*.class": true
+  },
+  "markdown.preview.fontSize": 16,
+  "markdown.preview.lineHeight": 1.7,
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "diffEditor.renderSideBySide": true,
+  "editor.lineNumbers": "off",
+  "dart.checkForSdkUpdates": false,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "terminal.integrated.lineHeight": 1.3,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  "jupyter.askForKernelRestart": false,
+  "editor.letterSpacing": 0.2,
+  "editor.lineHeight": 30,
+  "editor.fontSize": 16.5,
+  "editor.cursorSmoothCaretAnimation": true,
+  "dart.flutterSdkPath": "/home/darkangel/src/flutter"
+}

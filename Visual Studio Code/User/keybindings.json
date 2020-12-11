@@ -1,0 +1,113 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+b",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "code-runner.stop"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "-code-runner.stop"
+    },
+    // {
+    //     "key": "ctrl+oem_period",
+    //     "command": "workbench.action.gotoLine"
+    // },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "terminalCommandKeys.run",
+        "args": {
+            "cmd": "g++ \"${file}\" -o master.out -Ddark_angel && ./master.out",
+            "newTerminal": false,
+            "saveAllFiles": true,
+            "showTerminal": true,
+            "focus": true
+        }
+    },
+    {
+        "key": "alt+b",
+        "command": "workbench.action.toggleActivityBarVisibility",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.splitEditor",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+v",
+        "command": "workbench.action.splitEditorOrthogonal",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+x",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+c",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+z",
+        "command": "workbench.action.toggleMaximizedPanel",
+    },
+    {
+        "key": "alt+r",
+        "command": "editor.action.showContextMenu",
+    },
+    {
+        "key": "ctrl+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-extension.vim_ctrl+d",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "-extension.vim_cmd+alt+down",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+]
