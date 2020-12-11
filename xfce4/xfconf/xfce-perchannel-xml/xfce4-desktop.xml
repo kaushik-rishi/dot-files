@@ -40,6 +40,16 @@
           <property name="image-style" type="int" value="3"/>
           <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/it is the mindset that matters!.png"/>
         </property>
+        <property name="workspace6" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace7" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
       </property>
       <property name="monitor1" type="empty">
         <property name="image-path" type="string" value="/home/darkangel/Downloads/wallpaper/it is the mindset that matters!.png"/>
@@ -85,6 +95,46 @@
           <property name="image-style" type="int" value="3"/>
           <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/it is the mindset that matters!.png"/>
         </property>
+        <property name="workspace6" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace7" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace8" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace9" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace10" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace11" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace12" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace13" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
       </property>
       <property name="monitoreDP-1-1" type="empty">
         <property name="workspace0" type="empty">
@@ -117,6 +167,16 @@
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
           <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/it is the mindset that matters!.png"/>
+        </property>
+        <property name="workspace6" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        </property>
+        <property name="workspace7" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
         </property>
       </property>
     </property>

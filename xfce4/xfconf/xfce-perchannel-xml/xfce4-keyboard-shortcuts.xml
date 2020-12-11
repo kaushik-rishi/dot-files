@@ -183,6 +183,7 @@
       <property name="&lt;Primary&gt;&lt;Super&gt;Delete" type="string" value="del_active_workspace_key"/>
       <property name="F1" type="string" value="maximize_window_key"/>
       <property name="F4" type="string" value="resize_window_key"/>
+      <property name="&lt;Super&gt;Down" type="string" value="hide_window_key"/>
     </property>
   </property>
   <property name="providers" type="empty"/>
