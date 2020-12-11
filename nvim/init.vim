@@ -4,23 +4,24 @@ source $HOME/.config/nvim/root-settings/control-c-settings.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
-source $HOME/.config/nvim/plug-config/onedark.vim
+" source $HOME/.config/nvim/plug-config/onedark.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/autopairs.vim
 source $HOME/.config/nvim/plug-config/vimcommentary.vim
 source $HOME/.config/nvim/plug-config/lightline.vim
+source $HOME/.config/nvim/general/keys.vim
 
-set autoread
-
-Plug 'nvim-treesitter/nvim-treesitter'
-
-" require'nvim-treesitter.configs'.setup {
-"   ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-"   highlight = {
-"     enable = true,              -- false will disable the whole extension
-"   },
-" }
+colorscheme bliss 
+set termguicolors
+" set background=dark
+" syntax on
+" colorscheme onedark
+" colorscheme gruvbox
+" set background=light
+" colorscheme solarized
+" Gruvbox Theme
+" autocmd vimenter * ++nested colorscheme gruvbox
 
 " ================ Suggestions ======================
 " show wild menu (menu of suggestions) when typing commands in command mode
@@ -52,28 +53,15 @@ autocmd FileChangedShellPost *
 set foldmethod=indent   "fold based on indent
 set foldnestmax=3       "deepest fold is 3 levels
 set nofoldenable        "dont fold by default
-
-" ================ Encoding =========================
-
-"set encoding to utf8
-if &encoding != 'utf-8'
-    set encoding=utf-8              "Necessary to show Unicode glyphs
-endif
-
 " ================ Keyboard bindings ================
 
 " set the leader key to comma
 let mapleader = ' '
 nmap <leader>b :NERDTreeToggle<CR>
+
 " make the cursor stay on the same character when leaving insert mode
 inoremap ć <Esc>l
 inoremap Ć <Esc>l
-
-" fast scrolling
-nnoremap K 10j
-nnoremap L 10k
-vnoremap K 10j
-vnoremap L 10k
 
 " Mapping U to Redo.
 noremap U <c-r>
@@ -86,10 +74,7 @@ vnoremap <Tab> >>_
 vnoremap <S-Tab> <<_
 
 syntax on
-
-
-" ================ Indentation ======================
-
+set encoding=utf-8 
 set autoindent
 set smartindent
 set shiftwidth=4
@@ -103,38 +88,18 @@ set noerrorbells                        " Turn off error bell sounds
 set novisualbell                        " Turn off bell sounds
 set t_vb=                               " Disable beeping
 set tm=500 
-
-
-" ================ Number column ====================
- 
-set number " see the line number column
+set formatoptions=cro
+" set cursorline " highlghts the current line
+set showtabline=2
+set number 
 set rnu
-
-" ================ Searching ========================
-
-" Ignorecase when searching
 set ignorecase
-
-" incremental search - Vim starts searching when we start typing
 set incsearch
-
-" When searching try to be smart about cases
 set smartcase
-
-" Highlight search results
 set hlsearch
-
-" ================ Performance ======================
-
-" fix slow scrolling that occurs when using mouse and relative numbers
 set lazyredraw
-" vim timeout (forgot why I need this or if I do at all)
 set ttyfast
 set ttimeoutlen=10
-
-" ================ Misc =============================
-" history
 set history=1000
-
-" integrating with the system clipboard
 set clipboard=unnamedplus
+set autoread
