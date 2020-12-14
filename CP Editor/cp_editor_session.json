@@ -5,33 +5,41 @@
             "checkerIndex": 0,
             "customCheckers": [
             ],
-            "editorAnchor": 741,
-            "editorCursor": 741,
-            "editorText": "#include <bits/stdc++.h>\nusing namespace std;\n#define int long long\n#define endl \"\\n\"\n#define deb(x) cout << #x << \" -> \" << x << endl;\n#define deb1(x) cerr << #x << \": \" << x << \" \" << endl\n#define deb2(x, y) cerr << #x << \": \" << x << \" | \" << #y << \": \" << y << endl\n#define deb3(x, y, z)                                                         \\\n    cerr << #x << \":\" << x << \" | \" << #y << \": \" << y << \" | \" << #z << \": \" \\\n         << z << endl\n#define deb4(a, b, ser, d)                                               \\\n    cerr << #a << \": \" << a << \" | \" << #b << \": \" << b << \" | \" << #ser \\\n         << \": \" << ser << \" | \" << #d << \": \" << d << endl\n#define print(x)                          \\\n    for (auto &x_ : x) cout << x_ << \" \"; \\\n    cout << endl;\n#define pb push_back\n#define all(x) x.begin(), x.end()\n#define prec(x, y) fixed << setprecision(y) << x\n\n/*\nThink of an easier solution because the problems you solve are always easy\n-> Problems till Div-2 C are going to be ad-hoc\nThink of change occuring in window (K periodic)\nBinary Search (May be sort and rotate)\nTraverse the array in reverse and check if any idea works out\n*/\n\nvoid solve(int tc_count) {\n}\n\nint32_t main() {\n    ios::sync_with_stdio(0);\n    cout.tie(0);\n    cin.tie(0);\n\n    int32_t tc = 1;\n    cin >> tc;\n    for (int tc_ = 1; tc_ <= tc; ++tc_) {\n        solve(tc_);\n    }\n}",
+            "editorAnchor": 1865,
+            "editorCursor": 1865,
+            "editorText": "#include <bits/stdc++.h>\nusing namespace std;\n#define int long long\n#define endl \"\\n\"\n#define deb(x) cout << #x << \" -> \" << x << endl;\n#define deb1(x) cerr << #x << \": \" << x << \" \" << endl\n#define deb2(x, y) cerr << #x << \": \" << x << \" | \" << #y << \": \" << y << endl\n#define deb3(x, y, z)                                                         \\\n    cerr << #x << \":\" << x << \" | \" << #y << \": \" << y << \" | \" << #z << \": \" \\\n         << z << endl\n#define deb4(a, b, ser, d)                                               \\\n    cerr << #a << \": \" << a << \" | \" << #b << \": \" << b << \" | \" << #ser \\\n         << \": \" << ser << \" | \" << #d << \": \" << d << endl\n#define print(x)                          \\\n    for (auto &x_ : x) cout << x_ << \" \"; \\\n    cout << endl;\n#define pb push_back\n#define all(x) x.begin(), x.end()\n#define prec(x, y) fixed << setprecision(y) << x\n\n/*\nThink of an easier solution because the problems you solve are always easy\n-> Problems till Div-2 C are going to be ad-hoc\nThink of change occuring in window (K periodic)\nBinary Search (May be sort and rotate)\nTraverse the array in reverse and check if any idea works out\n*/\n\nvoid solve(int tc_count) {\n    int d1, v1, d2, v2, p;\n    cin >> d1 >> v1 >> d2 >> v2 >> p;\n    int d2_copy = d2;\n\n    if (d1 > d2) {\n        swap(d1, d2);\n        swap(v1, v2);\n    }\n\n    if (d1 == d2) {\n        cout << d1 - 1 + (p + v1 + v2 - 1) / (v1 + v2) << endl;\n    } else {\n        int starting_days = d1 - 1;\n        d2 -= d1;\n        d1 = 0;\n        d1++;\n        d2++;\n        if ((d2 - 1) * v1 >= p) {\n            cout << starting_days + ((p + v1 - 1) / (v1)) << endl;\n        } else {\n            int ans = d2_copy;\n            p -= v1 * starting_days;\n\n            int cap = v1 + v2;\n            ans += ((p + cap - 1) / cap);\n            cout << ans << endl;\n        }\n    }\n    // 2, 10\n    // 5, 4\n    // 100\n}\n\nint32_t main() {\n    ios::sync_with_stdio(0);\n    cout.tie(0);\n    cin.tie(0);\n\n    int32_t tc = 1;\n    // cin >> tc;\n    for (int tc_ = 1; tc_ <= tc; ++tc_) {\n        solve(tc_);\n    }\n}",
             "expected": [
-                ""
+                "3\n",
+                "9\n"
             ],
             "filePath": "",
             "horizontalScrollBarValue": 0,
             "input": [
-                ""
+                "1 2 1 3 14\n",
+                "5 4 2 10 100\n"
             ],
             "isLanguageSet": true,
             "language": "C++",
-            "problemURL": "",
+            "problemURL": "https://www.codechef.com/DEC20B/problems/VACCINE1",
             "savedText": "",
             "testCaseSplitterStates": [
                 [
-                    222,
-                    207,
-                    230
+                    241,
+                    240,
+                    241
+                ],
+                [
+                    241,
+                    240,
+                    241
                 ]
             ],
             "testcasesIsShow": [
+                true,
                 true
             ],
             "untitledIndex": 1,
-            "verticalScrollbarValue": 0
+            "verticalScrollbarValue": 859
         }
     ]
 }
