@@ -1,0 +1,23 @@
+- This wiki aims at making your wifi connectivity better.
+  = Issues faced in wifi  connectivity
+     👉️ Not connecting to wifi
+     👉️ Wifi connected but slow internet
+     👉️ 💫 [most important] We are connected to the internet and the connection is working properly and the connection is still intact but you don't recieve the internet.
+        - More specifically speaking while running the ping www.google.com command in between we get the message `Destination Host Unreachable`
+        - 🌬️ This problem can be simulated to being connected but showing `No Internet` in Windows.
+  = Reasons 🤦
+  	 👉️ Old and outdated wifi chipset
+  	 👉️ Manufacturing Defect
+  	 👉️ Outdated Driver problem
+  	 👉️ Chipset Driver Compatibility Problem [Intel cannon chipset]
+  	 👉️ 💫 Power management restricting the power to wifi chipset
+  1. Chaning the power management.
+  	- modify the file at /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+  	 -> Put these into the file to disable power management.
+		[connection]
+		wifi.powersave = 2
+  2. Change dns server to google's DNS Server.
+  	
+
+
+
