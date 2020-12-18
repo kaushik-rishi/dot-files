@@ -4,7 +4,7 @@ source $HOME/.config/nvim/root-settings/control-c-settings.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/nerdtree.vim
-" source $HOME/.config/nvim/plug-config/onedark.vim
+source $HOME/.config/nvim/plug-config/onedark.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/autopairs.vim
@@ -12,11 +12,11 @@ source $HOME/.config/nvim/plug-config/vimcommentary.vim
 source $HOME/.config/nvim/plug-config/lightline.vim
 source $HOME/.config/nvim/general/keys.vim
 
-colorscheme bliss 
+" colorscheme bliss 
 set termguicolors
-" set background=dark
+set background=dark
 " syntax on
-" colorscheme onedark
+colorscheme onedark
 " colorscheme gruvbox
 " set background=light
 " colorscheme solarized

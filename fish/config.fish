@@ -31,4 +31,3 @@ alias app_images="~/Apps/ && thunar . && exit"
 alias yt-dl="/usr/bin/python3 /usr/local/bin/youtube-dl"
 alias mp3="yt-dl -x --embed-thumbnail --audio-format mp3"
 
-

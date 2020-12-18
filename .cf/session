@@ -3,7 +3,7 @@
     "codeforces.com": {
       "codeforces.com;/;39ce7": {
         "Name": "39ce7",
-        "Value": "CFnApAFG",
+        "Value": "CFwP8q7C",
         "Domain": "codeforces.com",
         "Path": "/",
         "SameSite": "",
@@ -11,13 +11,13 @@
         "HttpOnly": false,
         "Persistent": true,
         "HostOnly": true,
-        "Expires": "2020-12-11T11:29:06.135707415+05:30",
-        "Creation": "2020-11-29T21:42:26.135707415+05:30",
-        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+        "Expires": "2020-12-27T09:56:54.158349901+05:30",
+        "Creation": "2020-12-15T20:10:14.158349901+05:30",
+        "LastAccess": "2020-12-17T21:17:35.47519635+05:30"
       },
       "codeforces.com;/;JSESSIONID": {
         "Name": "JSESSIONID",
-        "Value": "C478423019E353EB60BFB933394D4081-n1",
+        "Value": "667C0B2F7826AC4488B4967244D9DD2D-n1",
         "Domain": "codeforces.com",
         "Path": "/",
         "SameSite": "",
@@ -27,7 +27,7 @@
         "HostOnly": true,
         "Expires": "9999-12-31T23:59:59Z",
         "Creation": "2020-11-29T21:42:26.135707415+05:30",
-        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+        "LastAccess": "2020-12-17T21:17:35.47519635+05:30"
       },
       "codeforces.com;/;X-User": {
         "Name": "X-User",
@@ -41,7 +41,7 @@
         "HostOnly": true,
         "Expires": "2020-12-29T21:42:26.743608005+05:30",
         "Creation": "2020-11-29T21:42:26.743608005+05:30",
-        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+        "LastAccess": "2020-12-17T21:17:35.47519635+05:30"
       },
       "codeforces.com;/;X-User-Sha1": {
         "Name": "X-User-Sha1",
@@ -53,9 +53,9 @@
         "HttpOnly": false,
         "Persistent": true,
         "HostOnly": true,
-        "Expires": "2021-11-29T21:42:26.743608005+05:30",
+        "Expires": "2021-12-15T20:10:14.158349901+05:30",
         "Creation": "2020-11-29T21:42:26.743608005+05:30",
-        "LastAccess": "2020-11-29T22:15:53.728425902+05:30"
+        "LastAccess": "2020-12-17T21:17:35.47519635+05:30"
       }
     }
   },
@@ -66,10 +66,10 @@
   "bfaa": "f1b3f18c715565b589b7823cda7448ce",
   "last_submission": {
     "problem_type": "contest",
-    "contest_id": "1452",
+    "contest_id": "1463",
     "group_id": "",
-    "problem_id": "A",
-    "submission_id": "99926289",
-    "RootPath": "/home/darkangel/Apps/cf/contest"
+    "problem_id": "a",
+    "submission_id": "101559019",
+    "RootPath": "/home/darkangel/cf/contest"
   }
 }

@@ -4,7 +4,7 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+        <property name="image-path" type="string" value="/home/darkangel/Desktop/CopyQ.fIfVeG.png"/>
         <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/it is the mindset that matters!.png"/>
         <property name="last-single-image" type="empty"/>
         <property name="brightness" type="empty"/>
@@ -86,9 +86,15 @@
       <property name="monitoreDP-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/pexels-simon-matzinger-1323550.jpg"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/darkangel/Downloads/wallpaper/it is the mindset that matters!.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
+          <property name="rgba1" type="array">
+            <value type="double" value="0.000000"/>
+            <value type="double" value="0.000000"/>
+            <value type="double" value="0.000000"/>
+            <value type="double" value="1.000000"/>
+          </property>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>

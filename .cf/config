@@ -7,13 +7,13 @@
       "suffix": [
         "cpp"
       ],
-      "before_script": "",
-      "script": "tobeempty",
+      "before_script": "g++ $%full%$ -o $%file%$.exe",
+      "script": "./$%file%$.exe",
       "after_script": ""
     }
   ],
   "default": 0,
-  "gen_after_parse": false,
+  "gen_after_parse": true,
   "host": "https://codeforces.com",
   "proxy": "",
   "folder_name": {
